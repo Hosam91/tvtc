@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/tvtc/static/css/main.f4c6ba39.css",
+    "main.js": "/tvtc/static/js/main.684b786a.js",
+    "static/js/787.ac65060b.chunk.js": "/tvtc/static/js/787.ac65060b.chunk.js",
+    "static/media/header.png": "/tvtc/static/media/header.818bd490f051ac82405e.png",
+    "static/media/logo.png": "/tvtc/static/media/logo.644a3be1f5695346bcf7.png",
+    "index.html": "/tvtc/index.html",
+    "main.f4c6ba39.css.map": "/tvtc/static/css/main.f4c6ba39.css.map",
+    "main.684b786a.js.map": "/tvtc/static/js/main.684b786a.js.map",
+    "787.ac65060b.chunk.js.map": "/tvtc/static/js/787.ac65060b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f4c6ba39.css",
+    "static/js/main.684b786a.js"
+  ]
+}
