@@ -1,0 +1,170 @@
+/* Mobile  */
+
+
+@media (max-width: 480px) {
+    /* Styles for small mobile phones */
+    .navbar-brand{
+        width: 20%;
+      }
+      nav .nav-link {
+        text-transform: uppercase;
+        width: 100%;
+        height: 100%;
+        font-size: .9rem;
+        display: block;
+        padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+        font-weight: 200;
+        color: #fff;
+        text-decoration: none;
+        background: 0 0;
+        border: 0;
+        transition: color 0.7s, background-color 0.7s ease-in-out,
+          border-color 0.7s ease-in-out !important;
+          font-family: 'Rowdies', cursive;
+      
+      }
+    .nav-item:hover .nav-link{
+        color: #0c536f !important;
+        font-size: 1rem !important;
+        font-weight: 400;
+        transition: 0.3 !important;
+        border-bottom: #0c536f solid 2px;
+        background-color: #e5f0f5;
+        border-radius: 0.3rem;
+        font-style: oblique;
+      }
+  
+    .my-swipper-slide .slidy{
+        height: 100vh;
+    }
+    .my-swipper-slide .slidy img {
+        height: 100%;
+    }
+    .my-swipper{
+        height: 60vh!important;
+    }
+   
+    .swiper-slide{
+        overflow: hidden;
+        text-align: center;
+    }
+    .about-slid p {
+        font-size: 1rem;
+        font-style: italic;
+        padding: 0.5rem!important;
+        color: #0c396f;
+      }
+    
+   .section-head-shadow{
+    display: none;
+   }
+   .row{
+    margin-left: 0!important;
+    margin-left: 0!important;
+   }
+   .myFooter{
+    width: 100%;
+  padding: 0;
+   }
+   .quick-links,.quick-links-father{
+    width: 100%!important;
+    padding-left:0 !important;
+    padding-right:0 !important;
+}
+.quick-links {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 5px;
+}
+.quick-links{
+    width: 20%;
+}
+.stext{
+  color: #0c396f!important;
+  position: absolute;
+  top: 69%;
+  left: 10%;
+  text-transform: capitalize;
+  font-size: 1.6rem;
+  -webkit-text-stroke: 1px #fff;
+  width: 80%;
+
+}
+
+.EffectCoverflow {
+    height: 80vh;
+  width: 100%;
+  margin: auto;
+  }
+
+  }
+  h1,
+h2,
+h3
+{
+    font-weight: 300!important;
+    font-size: 2rem!important;
+}
+
+h4,h5,h6{
+    font-weight: 300!important;
+    font-size: 1.5rem!important;
+}
+
+
+
+
+
+/* Tablets  */
+  @media (min-width: 481px) and (max-width: 767px) {
+    /* Styles for mobile phones */
+    .navbar-brand{
+        width: 19%;
+      }
+    .my-swipper {
+        height: 100vh;
+    }
+    .my-swipper-slide .slidy {
+        height: 100vh;
+    }
+    .my-swipper-slide .slidy img {
+        height: 100%;
+    }
+    .my-swipper{
+        height: 70vh!important;
+    }
+    *{
+        max-width: 100%;
+    }
+    .section-head-shadow{
+        display: none;
+       }
+       .row{
+        margin-left: 0!important;
+        margin-left: 0!important;
+       }
+       .myFooter{
+        width: 100%;
+      padding: 0;
+       }
+       .quick-links,.quick-links-father{
+        width: 100%!important;
+        padding-left:0 !important;
+        padding-right:0 !important;
+    }
+    .quick-links {
+        /* margin-top: 1rem; */
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 5px;
+    }
+    .quick-links{
+        width: 20%;
+    }
+    .gappy .col-md-3{
+        width: 50%;
+    }
+  }
+
+  
