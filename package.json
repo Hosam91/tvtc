@@ -1,5 +1,5 @@
 {
-  "homepage": "https://Hosam91.github.io/technical college of telecommunications and information/",
+  "homepage": "https://Hosam91.github.io/tvtc/",
   "name": "technical college of telecommunications and information",
   "version": "0.1.0",
   "private": true,
@@ -24,6 +24,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": " react-scripts build",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

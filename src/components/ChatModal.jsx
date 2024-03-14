@@ -51,7 +51,7 @@ export default function ChatModal() {
     e.preventDefault()
     if (!input.trim()) return
 
-    let { data } = await axios.post('http://89.116.152.54:8000/ai', {
+    let { data } = await axios.post('https://fprsnt.me/ai', {
       question: input,
     })
     if (data?.answer) {

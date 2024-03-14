@@ -12,7 +12,7 @@ export default function Categories() {
   {
     setLoading(true)
     let { data } = await axios.get(
-      'http://89.116.152.54:8000/categories'
+      'https://fprsnt.me/categories/'
     )
     setCategorisData(data)
 

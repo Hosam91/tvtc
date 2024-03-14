@@ -18,7 +18,7 @@ export default function Questions() {
   {
     setLoading(true)
     let { data } = await axios.get(
-      `http://89.116.152.54:8000/categories/${id}`
+      `https://fprsnt.me/categories/${id}`
     )
     setCategorisData(data)
 
