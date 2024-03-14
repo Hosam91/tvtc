@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 
-import { Grid, Typography } from '@mui/material'
+import { CircularProgress, Grid, Typography } from '@mui/material'
 import { useParams } from 'react-router-dom'
 import Accordion from '@mui/material/Accordion'
 import AccordionSummary from '@mui/material/AccordionSummary'
@@ -36,6 +36,16 @@ export default function Questions() {
    
   }, [])
 
+  if (loading && categoriesData.length == 0)
+  {
+    return <Grid container style={{ display: 'flex', justifyContent: 'center' }}>
+      {/* <h3>Loading...</h3> */}
+      <Grid item>
+      <CircularProgress />
+      </Grid>
+    </Grid>;
+  }
+
   return (
     <div dir="rtl">
       <Grid container sx={{ mt: 5 }}>
@@ -48,6 +58,17 @@ export default function Questions() {
         <Grid item md={12} sm={12}></Grid>
 
         <Grid item md={12} sm={12} mt={5}>
+          
+          {
+            (categoriesData.length == 0 &&  !loading) && <>
+                <Typography
+          variant="h3"
+          sx={{ mt: '3rem', textAlign: 'center', fontWeight:'bold' }}
+        >
+          عذرا لا يوجد أسألة في هذا القسم 
+        </Typography>
+            </>
+          }
 
           {categoriesData?.map((question) =>
           {
