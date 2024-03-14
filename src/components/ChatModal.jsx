@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, {  useState } from 'react'
 import {
   Modal,
   Box,
@@ -6,10 +6,8 @@ import {
   Button,
   Typography,
   Card,
-  Grid,
   CircularProgress,
 } from '@mui/material'
-import { useMyContext } from '../store'
 import axios from 'axios'
 import SendIcon from '@mui/icons-material/Send'
 import ChatIcon from '@mui/icons-material/Chat';
